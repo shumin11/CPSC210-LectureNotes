@@ -20,7 +20,9 @@ The **Iterator Paterrn**, which allows us to collect behaviour related to iterat
 Panel and Component is bi-directional:
 
 in Component:
+
 public void setParent(Panel parent) {
+
     if (this.parent != parent) {
 
         if (this.parent != null) {
@@ -37,6 +39,7 @@ public void setParent(Panel parent) {
 In Panel:
 
 public void add(Component child) {
+
     if (!children.conatins(child)) {
 
         Panel parent = child.getParent();
@@ -47,7 +50,9 @@ public void add(Component child) {
         children.add(child);
         child.setParent(this);
     }
+
 }
+
 
 
 
