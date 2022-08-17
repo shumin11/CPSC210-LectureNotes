@@ -126,7 +126,7 @@ private class CustomIterator<TheElement> implements Iterator<TheElement> {
 }
 
 Below is for 
-return taByTeam.values.iterator();
+return taByTeam.values().iterator();
 
 
 
