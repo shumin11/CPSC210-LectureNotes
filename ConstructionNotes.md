@@ -108,6 +108,12 @@ myMap.containsKey();
 
 myMap.containsValue();
 
+mayMap.size();
+
+myMap.getKey();
+
+myMap.getValue();
+
 for (Map.Entry<KeyType, ValueType> e : myMap.entrySet()) {
      ValueType value = e.getValue();
      ...
